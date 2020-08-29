@@ -95,3 +95,20 @@ body {
 #goTopBtn:hover {
   background-color: #555;
 }
+/* contact cards */
+.contact-card {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.contact-card h6 {
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+
+  padding-top: 1em;
+}
+.contact-card a {
+  color: black;
+  font-weight: bold;
+}
