@@ -37,6 +37,11 @@ body {
   background-size: cover;
   display: none;
 }
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 .slideElement {
   display: none;
 }
@@ -63,7 +68,7 @@ body {
 }
 
 .navbar-collapse {
-  text-align: center;
+  padding-left: 40px;
   background-color: rgba(0, 0, 0, 0.555);
 }
 .navbar-collapse.solid {
