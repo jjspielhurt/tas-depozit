@@ -108,11 +108,11 @@ body {
 
   padding-top: 1em;
 }
+.contact-card {
+  font-weight: bold;
+}
 .contact-card a {
   color: black;
   text-decoration: underline;
-  font-weight: bold;
-}
-.contact-card {
-  font-weight: bold;
+  -webkit-text-decoration-line: underline;
 }
