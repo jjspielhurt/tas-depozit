@@ -24,9 +24,7 @@
 
   <body>
     <!-- Navigation -->
-    <nav
-      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
-    >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html"
           ><img
@@ -141,16 +139,18 @@
     </nav>
 
     <header>
+      <!-- slideshow animation  -->
       <div id="slideshow">
         <div class="slideElement">
-          <img src="images/slide03.jpg" width="100%" />
+          <img src="images/slide03.jpg" width="100%" height="800px" />
         </div>
         <div class="slideElement">
-          <img src="images/slide04.jpg" width="100%" />
+          <img src="images/slide04.jpg" width="100%" height="800px" />
         </div>
         <div class="slideElement">
-          Pretty cool eh? This slide is proof the content can be anything.
+          <img src="images/slide04.jpg" width="100%" height="800px" />
         </div>
+        <div class="slideElement parallax"></div>
       </div>
       <div
         id="carouselExampleIndicators"
@@ -192,7 +192,27 @@
         </div>
       </div>
     </header>
+    <!-- top scroll button -->
 
+    <button onclick="topFunction()" id="goTopBtn" title="Go to top">
+      <svg
+        width="1em"
+        height="1em"
+        viewBox="0 0 16 16"
+        class="bi bi-chevron-double-up"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+        />
+      </svg>
+    </button>
     <!-- Page Content -->
     <div class="container">
       <h1 class="my-4">Welcome to Modern Business</h1>
@@ -464,10 +484,12 @@
       <!-- /.container -->
     </footer>
 
-    <!-- custom js -->
-    <script src="js/slideshow.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/slideshow.js"></script>
+    <script src="js/navbarTransition.js"></script>
+    <script src="js/goTop.js"></script>
   </body>
 </html>
