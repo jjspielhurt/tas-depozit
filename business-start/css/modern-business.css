@@ -62,6 +62,14 @@ body {
   box-shadow: 0 0 4px grey;
 }
 
+.navbar-collapse {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+.navbar-collapse.solid {
+  background-color: rgb(2, 93, 2);
+}
+
 /* go top button */
 #goTopBtn {
   display: none;
