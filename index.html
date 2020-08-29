@@ -1,243 +1,567 @@
 <!DOCTYPE html>
-<!--
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<html lang="en">
   <head>
-    <title>TAS</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>TAS-depozit cereale si furaje</title>
+    <link rel="icon" type="image/png" href="images/logo-tas.png" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster"
+    />
   </head>
+
   <body>
-    <!-- Header -->
-    <header id="header" class="alt">
-      <div class="logo">
-        <a href="index.html"
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container" width="100%">
+        <a class="navbar-brand" href="index.html"
           ><img
-            id="home-icon"
-            src="images/LOGO-TRANSPARENT.png"
+            src="images/logo-tas.png"
             width="40"
             height="40"
-          />
-          <span>TAS Depozit</span></a
+            class="d-inline-block align-top"
+            alt=""
+          />&nbsp;TAS
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li
+              class="nav-item"
+              data-toggle="collapse"
+              data-target="#navbarResponsive"
+            >
+              <a class="nav-link" href="#contact-details">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownPortfolio"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="true"
+              >
+                Portfolio
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownPortfolio"
+              >
+                <a class="dropdown-item" href="portfolio-1-col.html"
+                  >1 Column Portfolio</a
+                >
+                <a class="dropdown-item" href="portfolio-2-col.html"
+                  >2 Column Portfolio</a
+                >
+                <a class="dropdown-item" href="portfolio-3-col.html"
+                  >3 Column Portfolio</a
+                >
+                <a class="dropdown-item" href="portfolio-4-col.html"
+                  >4 Column Portfolio</a
+                >
+                <a class="dropdown-item" href="portfolio-item.html"
+                  >Single Portfolio Item</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownBlog"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownPages"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Other Pages
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownPages"
+              >
+                <a class="dropdown-item" href="full-width.html"
+                  >Full Width Page</a
+                >
+                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-      <a href="#menu">Menu</a>
-    </header>
-
-    <!-- Nav -->
-    <nav id="menu">
-      <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
-      </ul>
     </nav>
 
-    <!-- Banner -->
-    <section class="banner full">
-      <article>
-        <img src="images/slide01.jpg" alt="" />
-        <div class="inner">
-          <header>
-            <p>
-              A free responsive web site template by
-              <a href="https://templated.co">TEMPLATED</a>
-            </p>
-            <h2>Hielo</h2>
-          </header>
+    <header>
+      <!-- slideshow animation  -->
+      <div id="slideshow">
+        <div class="slideElement">
+          <img src="images/slide03.jpg" width="100%" height="800px" />
         </div>
-      </article>
-      <article>
-        <img src="images/slide02.jpg" alt="" />
-        <div class="inner">
-          <header>
-            <p>
-              A free responsive web site template by
-              <a href="https://templated.co">TEMPLATED</a>
-            </p>
-            <h2>Hielo</h2>
-          </header>
+        <div class="slideElement">
+          <img src="images/slide04.jpg" width="100%" height="800px" />
         </div>
-      </article>
-      <article>
-        <img src="images/slide03.jpg" alt="" />
-        <div class="inner">
-          <header>
-            <p>
-              A free responsive web site template by
-              <a href="https://templated.co">TEMPLATED</a>
-            </p>
-            <h2>Hielo</h2>
-          </header>
+        <div class="slideElement">
+          <img src="images/slide04.jpg" width="100%" height="800px" />
         </div>
-      </article>
-      <article>
-        <img src="images/slide04.jpg" alt="" />
-        <div class="inner">
-          <header>
-            <p>
-              A free responsive web site template by
-              <a href="https://templated.co">TEMPLATED</a>
-            </p>
-            <h2>Hielo</h2>
-          </header>
-        </div>
-      </article>
-      <article>
-        <img src="images/slide05.jpg" alt="" />
-        <div class="inner">
-          <header>
-            <p>
-              A free responsive web site template by
-              <a href="https://templated.co">TEMPLATED</a>
-            </p>
-            <h2>Hielo</h2>
-          </header>
-        </div>
-      </article>
-    </section>
-
-    <!-- One -->
-    <section id="one" class="wrapper style2">
-      <div class="inner">
-        <div class="grid-style">
-          <div>
-            <div class="box">
-              <div class="image fit">
-                <img src="images/pic02.jpg" alt="" />
-              </div>
-              <div class="content">
-                <header class="align-center">
-                  <p>maecenas sapien feugiat ex purus</p>
-                  <h2>Lorem ipsum dolor</h2>
-                </header>
-                <p>
-                  Cras aliquet urna ut sapien tincidunt, quis malesuada elit
-                  facilisis. Vestibulum sit amet tortor velit. Nam elementum
-                  nibh a libero pharetra elementum. Maecenas feugiat ex purus,
-                  quis volutpat lacus placerat malesuada.
-                </p>
-                <footer class="align-center">
-                  <a href="#" class="button alt">Learn More</a>
-                </footer>
-              </div>
+        <div class="slideElement parallax"></div>
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="parallax"></div>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="background-image: url('http://placehold.it/1900x1080')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>First Slide</h3>
+              <p>This is a description for the first slide.</p>
             </div>
           </div>
-
-          <div>
-            <div class="box">
-              <div class="image fit">
-                <img src="images/pic03.jpg" alt="" />
-              </div>
-              <div class="content">
-                <header class="align-center">
-                  <p>mattis elementum sapien pretium tellus</p>
-                  <h2>Vestibulum sit amet</h2>
-                </header>
-                <p>
-                  Cras aliquet urna ut sapien tincidunt, quis malesuada elit
-                  facilisis. Vestibulum sit amet tortor velit. Nam elementum
-                  nibh a libero pharetra elementum. Maecenas feugiat ex purus,
-                  quis volutpat lacus placerat malesuada.
-                </p>
-                <footer class="align-center">
-                  <a href="#" class="button alt">Learn More</a>
-                </footer>
-              </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('http://placehold.it/1900x1080')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Second Slide</h3>
+              <p>This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('http://placehold.it/1900x1080')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </header>
+    <!-- top scroll button -->
 
-    <!-- Two -->
-    <section id="two" class="wrapper style3">
-      <div class="inner">
-        <header class="align-center">
+    <button onclick="topFunction()" id="goTopBtn" title="Go to top">
+      <svg
+        width="1em"
+        height="1em"
+        viewBox="0 0 16 16"
+        class="bi bi-chevron-double-up"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+        />
+      </svg>
+    </button>
+    <!-- Page Content -->
+    <div class="container">
+      <h1 class="my-4">Welcome to Modern Business</h1>
+
+      <!-- Marketing Icons Section -->
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header">Card Title</h4>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente esse necessitatibus neque.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header">Card Title</h4>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reiciendis ipsam eos, nam perspiciatis natus commodi similique
+                totam consectetur praesentium molestiae atque exercitationem ut
+                consequuntur, sed eveniet, magni nostrum sint fuga.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header">Card Title</h4>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente esse necessitatibus neque.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Portfolio Section -->
+      <h2>Portfolio Heading</h2>
+
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="http://placehold.it/700x400"
+                alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project One</a>
+              </h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus
+                sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum
+                tempora ex quae? Nihil, dolorem!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="http://placehold.it/700x400"
+                alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Two</a>
+              </h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                viverra euismod odio, gravida pellentesque urna varius vitae.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="http://placehold.it/700x400"
+                alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Three</a>
+              </h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                quisquam, error quod sed cumque, odio distinctio velit nostrum
+                temporibus necessitatibus et facere atque iure perspiciatis
+                mollitia recusandae vero vel quam!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="http://placehold.it/700x400"
+                alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Four</a>
+              </h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                viverra euismod odio, gravida pellentesque urna varius vitae.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="http://placehold.it/700x400"
+                alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Five</a>
+              </h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                viverra euismod odio, gravida pellentesque urna varius vitae.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="http://placehold.it/700x400"
+                alt=""
+            /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Six</a>
+              </h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+                earum nostrum suscipit ducimus nihil provident, perferendis rem
+                illo, voluptate atque, sit eius in voluptates, nemo repellat
+                fugiat excepturi! Nemo, esse.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Features Section -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Modern Business Features</h2>
+          <p>The Modern Business template by Start Bootstrap includes:</p>
+          <ul>
+            <li>
+              <strong>Bootstrap v4</strong>
+            </li>
+            <li>jQuery</li>
+            <li>Font Awesome</li>
+            <li>Working contact form with validation</li>
+            <li>Unstyled page elements for easy customization</li>
+          </ul>
           <p>
-            Nam vel ante sit amet libero scelerisque facilisis eleifend vitae
-            urna
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+            omnis doloremque non cum id reprehenderit, quisquam totam aspernatur
+            tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum
+            ducimus unde.
           </p>
-          <h2>Morbi maximus justo</h2>
-        </header>
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="img-fluid rounded"
+            src="http://placehold.it/700x450"
+            alt=""
+          />
+        </div>
       </div>
-    </section>
+      <!-- /.row -->
 
-    <!-- Three -->
-    <section id="three" class="wrapper style2">
-      <div class="inner">
-        <header class="align-center">
-          <p class="special">
-            Nam vel ante sit amet libero scelerisque facilisis eleifend vitae
-            urna
+      <hr />
+
+      <!-- Call to Action Section -->
+      <div class="row mb-4">
+        <div class="col-md-8">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+            expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo
+            praesentium cum alias asperiores commodi.
           </p>
-          <h2>Morbi maximus justo</h2>
-        </header>
-        <div class="gallery">
-          <div>
-            <div class="image fit">
-              <a href="#"><img src="images/pic01.jpg" alt="" /></a>
+        </div>
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-secondary btn-block" href="#"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+
+      <!-- Content Row -->
+      <div class="row">
+        <!-- Map Column -->
+        <div class="col-lg-8 mb-4" id="contact-details">
+          <h3>Detalii de contact</h3>
+          <!-- Embedded Google Map -->
+          <iframe
+            style="width: 100%; height: 400px; border: 0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.6185523972695!2d26.916223315776975!3d46.94953564112776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDU2JzU4LjMiTiAyNsKwNTUnMDYuMyJF!5e0!3m2!1sro!2sro!4v1598644160913!5m2!1sro!2sro"
+          ></iframe>
+        </div>
+        <!-- Contact Details Column -->
+        <div class="container">
+          <div class="row">
+            <!-- adresa -->
+            <div class="col-sm-6 contact-card border-right border-bottom">
+              <svg
+                width="1.75em"
+                height="1.75em"
+                viewBox="0 0 16 16"
+                class="bi bi-geo-alt-fill"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                />
+              </svg>
+              <h6>Adresa</h6>
+              <a
+                href="https://www.google.com/maps/place/Depozit+cereale+si+furaje+TAS,+Strada+Nordului,+Roman+611047/@46.9495316,26.918423,15z/data=!4m2!3m1!1s0x40cabdce7c81e423:0xbdcc0decef0bf051"
+                >Strada Nordului nr. 4 <br />Roman, jud Neamt 611047
+                <br />
+              </a>
             </div>
-          </div>
-          <div>
-            <div class="image fit">
-              <a href="#"><img src="images/pic02.jpg" alt="" /></a>
+            <!-- telefon -->
+            <div class="col-sm-6 contact-card border-left border-bottom">
+              <svg
+                width="1.75em"
+                height="1.75em"
+                viewBox="0 0 16 16"
+                class="bi bi-telephone-fill"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"
+                />
+              </svg>
+              <h6>Nr telefon</h6>
+              <a href="tel:+40722733686">0722 733 686</a>
             </div>
-          </div>
-          <div>
-            <div class="image fit">
-              <a href="#"><img src="images/pic03.jpg" alt="" /></a>
+            <!-- mail -->
+            <div class="col-sm-6 contact-card border-right border-top">
+              <svg
+                width="1.75em"
+                height="1.75em"
+                viewBox="0 0 16 16"
+                class="bi bi-envelope-fill"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+                />
+              </svg>
+              <h6>Email</h6>
+              <a href="mailto:tudorautoserv@gmail.com"
+                >tudorautoserv@gmail.com</a
+              >
             </div>
-          </div>
-          <div>
-            <div class="image fit">
-              <a href="#"><img src="images/pic04.jpg" alt="" /></a>
+            <!-- program -->
+            <div class="col-sm-6 contact-card border-left border-top">
+              <svg
+                width="1.75em"
+                height="1.75em"
+                viewBox="0 0 16 16"
+                class="bi bi-clock-fill"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                />
+              </svg>
+              <h6>Program</h6>
+              Luni - Vineri: 09:00 - 17:00 <br />
+              Sambata, Duminica: inchis
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer class="py-5 bg-dark">
       <div class="container">
-        <ul class="icons">
-          <li>
-            <a href="#" class="icon fa-twitter"
-              ><span class="label">Twitter</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon fa-facebook"
-              ><span class="label">Facebook</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon fa-instagram"
-              ><span class="label">Instagram</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon fa-envelope-o"
-              ><span class="label">Email</span></a
-            >
-          </li>
-        </ul>
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Your Website 2020
+        </p>
       </div>
-      <div class="copyright">
-        &copy; Untitled. All rights reserved.
-      </div>
+      <!-- /.container -->
     </footer>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/slideshow.js"></script>
+    <script src="js/navbarTransition.js"></script>
+    <script src="js/goTop.js"></script>
   </body>
 </html>

@@ -1,0 +1,114 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 0px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* used for the slideshow animation illusion */
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/slide04.jpg");
+  width: 100%;
+  /* Set a specific height */
+  min-height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.slideElement {
+  display: none;
+}
+/* navbar company name font */
+.navbar-brand {
+  font-family: "Lobster";
+  font-size: 27px;
+  color: black;
+}
+
+/* make navbar translucent when scrolling */
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+.navbar.solid {
+  background-color: rgb(2, 93, 2);
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
+.navbar-collapse {
+  padding-left: 40px;
+  background-color: rgba(0, 0, 0, 0.555);
+}
+.navbar-collapse.solid {
+  background-color: rgb(2, 93, 2);
+}
+
+/* go top button */
+#goTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  background-color: rgba(37, 37, 37, 0.972);
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 4px;
+}
+
+#goTopBtn:hover {
+  background-color: #555;
+}
+/* contact cards */
+.contact-card {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.contact-card h6 {
+  font-family: "Courier New", Courier, monospace;
+  color: grey;
+
+  padding-top: 1em;
+}
+.contact-card a {
+  color: black;
+  font-weight: bold;
+}
