@@ -110,5 +110,9 @@ body {
 }
 .contact-card a {
   color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.contact-card {
   font-weight: bold;
 }
