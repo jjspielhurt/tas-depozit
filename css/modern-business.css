@@ -57,7 +57,7 @@ body {
   transition: background-color 1s ease 0s;
 }
 .navbar-collapse.solid {
-  background-color: rgb(2, 93, 2);
+  background-color: #025d02;
   transition: background-color 1s ease 0s;
 }
 
@@ -102,4 +102,17 @@ body {
   color: black;
   text-decoration: underline;
   -webkit-text-decoration-line: underline;
+}
+
+.fb_dialog.fb_dialog_advanced {
+  right: 18pt;
+  margin-right: 50px;
+}
+iframe.fb_customer_chat_bounce_in_v2 {
+  right: 9pt;
+  margin-right: 50px;
+}
+iframe.fb_customer_chat_bounce_out_v2 {
+  right: 9pt;
+  margin-right: 50px;
 }
