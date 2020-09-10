@@ -20,6 +20,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lobster"
     />
+    <!-- cookiealert.css -->
+    <link rel="stylesheet" href="css/cookiealert.css" />
   </head>
 
   <body>
@@ -311,11 +313,33 @@
       </div>
       <!-- /.container -->
     </footer>
+    <!-- cookie alert bar  -->
+    <div class="alert alert-dismissible cookiealert" role="alert">
+      <div class="cookiealert-container">
+        <p><b>Acord utilizare cookie</b></p>
+        Acest site utilizeaza cookie pentru a va imbunatati experienta. Vom
+        presupune ca sunteti de acord cu acest lucru, dar puteti renunta daca
+        doriti.
+        <a href="http://cookiesandyou.com/" target="_blank">Afla mai multe</a>
 
+        <button
+          type="button"
+          class="btn btn-primary btn-sm btn-success acceptcookies"
+          aria-label="Close"
+        >
+          Accept
+        </button>
+
+        <button type="button" class="btn btn-primary btn-danger btn-sm">
+          Nu accept
+        </button>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
+    <script src="js/cookiealert.js"></script>
     <script src="js/slideshow.js"></script>
     <script src="js/navbarTransition.js"></script>
     <script src="js/goTop.js"></script>
