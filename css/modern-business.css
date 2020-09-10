@@ -21,27 +21,12 @@ body {
 
 /* used for the slideshow animation illusion */
 
-.parallax {
-  /* The image used */
-  background-image: url("../images/slide04.jpg");
-  width: 100%;
-  /* Set a specific height */
-  min-height: 800px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: none;
-}
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
 .slideElement {
   display: none;
+}
+.animationImage {
+  width: 100%;
+  height: 800px;
 }
 /* navbar company name font */
 .navbar-brand {
