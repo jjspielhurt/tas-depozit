@@ -54,16 +54,18 @@ body {
 .navbar-collapse {
   padding-left: 40px;
   background-color: rgba(0, 0, 0, 0.555);
+  transition: background-color 1s ease 0s;
 }
 .navbar-collapse.solid {
   background-color: rgb(2, 93, 2);
+  transition: background-color 1s ease 0s;
 }
 
 /* go top button */
 #goTopBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
