@@ -48,7 +48,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav w-100">
+        <ul class="navbar-nav">
           <li
             class="nav-item"
             data-toggle="collapse"
@@ -378,6 +378,11 @@
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script>
+      $(".navbar-nav>li>a").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
     <script src="js/cookiealert.js"></script>

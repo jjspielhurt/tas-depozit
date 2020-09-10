@@ -85,7 +85,7 @@ body {
 }
 
 #goTopBtn:hover {
-  background-color: #555;
+  background-color: rgb(2, 93, 2);
 }
 /* contact cards */
 .contact-card {
