@@ -1,5 +1,7 @@
 /* navbar full width */
-
+.nav-link {
+  color: #f6fbffc2 !important;
+}
 /*  */
 .navbar.fixed-top {
   -webkit-font-smoothing: antialiased;
@@ -58,7 +60,7 @@ body {
 .navbar-collapse {
   padding-left: 40px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.555);
+  background-color: #0a6d8677;
   transition: background-color 1s ease 0s;
 }
 .navbar-collapse.solid {
