@@ -50,7 +50,7 @@ body {
   transition: background-color 1s ease 0s;
 }
 .navbar.solid {
-  background-color: rgb(2, 93, 2);
+  background-color: #89cd4b;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }
@@ -62,7 +62,7 @@ body {
   transition: background-color 1s ease 0s;
 }
 .navbar-collapse.solid {
-  background-color: #025d02;
+  background-color: #89cd4b;
   transition: background-color 1s ease 0s;
 }
 
@@ -76,7 +76,7 @@ body {
   font-size: 25px;
   border: none;
   outline: none;
-  background-color: rgb(2, 93, 2);
+  background-color: #89cd4b;
   color: white;
   cursor: pointer;
   /* top right bottom left*/
@@ -85,7 +85,7 @@ body {
 }
 
 #goTopBtn:hover {
-  background-color: rgb(2, 93, 2);
+  background-color: #89cd4b;
 }
 /* contact cards */
 .contact-card {
