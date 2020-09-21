@@ -193,7 +193,7 @@ body {
 }
 
 .backside {
-  background: white;
+  background: #8acd4bbe;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
