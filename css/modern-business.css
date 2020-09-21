@@ -213,5 +213,13 @@ body {
 }
 
 /* make products cards scale witth size */
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 770px) {
+  .card-img-top {
+    width: 115px;
+    height: 115px;
+  }
+  .image-flip {
+    width: 115px;
+    height: 115px;
+  }
 }
