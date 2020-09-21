@@ -129,38 +129,79 @@ body {
 
 /* flip card */
 
-.card {
-  margin: 10px 10px;
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
-/* Flip Cards CSS */
-.card-container {
-  display: grid;
-  perspective: 700px;
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.card-flip {
-  display: grid;
-  grid-template: 1fr / 1fr;
-  grid-template-areas: "frontAndBack";
+.image-flip {
+  margin-bottom: 200px;
+  width: 300px;
+  height: 250px;
+}
+
+.mainflip {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
   transform-style: preserve-3d;
-  transition: all 0.7s ease;
+  position: relative;
 }
 
-.card-flip div {
+.frontside,
+.backside {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 1s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 1s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
   transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.front {
-  grid-area: frontAndBack;
+.frontside {
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 2;
 }
 
-.back {
-  grid-area: frontAndBack;
+.backside {
+  background: white;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
 
-.card-container:hover .card-flip {
-  transform: rotateY(180deg);
+.card,
+.card-img-top {
+  border-radius: 0;
 }
