@@ -10,6 +10,9 @@
 body {
   padding-top: 0px;
 }
+.container {
+  text-align: center;
+}
 
 .carousel-item {
   height: 75vh;
