@@ -84,8 +84,17 @@
 
     <header>
       <!-- SLIDE SIMULATING ANIMATION  -->
-      <!-- <img id="text-animation" src="images/textanimatie-01.png" /> -->
-      <div id="slideshow">
+      <div style="position: relative; left: 0; top: 0">
+        <img
+          class="animationImage"
+          srcset="images/mobile/4-01.svg 828w, images/4-01.svg 1906w"
+          sizes="(min-width:990px) 1906w,
+            828w"
+          src="images/4-01.svg"
+        />
+        <img id="text-animation" src="images/textanimatie-01.png" />
+      </div>
+      <!-- <div id="slideshow">
         <div class="slideElement">
           <img
             class="animationImage"
@@ -132,8 +141,8 @@
             src="images/5-01.svg"
           />
         </div>
-      </div>
-      <!-- DESPRE NOI -->
+      </div> -->
+      <!-- DESPRE NOI-CONTAINER -->
       <div class="container"><h2 class="title" id="about">Despre noi</h2></div>
       <!-- slide despre noi -->
       <div
@@ -147,57 +156,32 @@
             class="carousel-item active"
             style="background-image: url('images/location/1.jpg')"
           >
-            <div class="carousel-caption d-none d-md-block">
+            <!-- <div class="carousel-caption d-none d-md-block">
               <h3>First Slide</h3>
               <p>This is a description for the first slide.</p>
-            </div>
+            </div>-->
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div
             class="carousel-item"
             style="background-image: url('images/location/2.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Second Slide</h3>
-              <p>This is a description for the second slide.</p>
-            </div>
-          </div>
+          ></div>
           <div
             class="carousel-item"
             style="background-image: url('images/location/3.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
+          ></div>
           <div
             class="carousel-item"
             style="background-image: url('images/location/4.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
+          ></div>
           <div
             class="carousel-item"
             style="background-image: url('images/location/5.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
+          ></div>
           <div
             class="carousel-item"
             style="background-image: url('images/location/6.jpg')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Third Slide</h3>
-              <p>This is a description for the third slide.</p>
-            </div>
-          </div>
+          ></div>
         </div>
         <a
           class="carousel-control-prev"
@@ -240,7 +224,7 @@
         />
       </svg>
     </button>
-    <!-- Page Content -->
+    <!-- PRODUSE-CONTAINER -->
     <div class="container">
       <!-- PRODUSE -->
       <h2 class="title" id="products">Produse</h2>
@@ -429,6 +413,7 @@
         ></iframe>
       </div>
     </div>
+    <!-- CONTACT-DETAILS-CONTAINER -->
     <div class="container">
       <!-- CONTACT DETALII -->
       <div class="container">
