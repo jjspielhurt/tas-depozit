@@ -1,10 +1,13 @@
 /* navbar full width */
 .nav-link {
-  color: #f6fbffc2 !important;
+  color: white !important;
+  font-size: 19px;
 }
+/* map full width */
 #contact-details {
   padding: 0px;
 }
+/* align center the texts */
 .row {
   text-align: center;
   margin: 0 auto;
@@ -28,6 +31,7 @@ body {
 .title {
   font-family: "Lobster";
 }
+/* responsive about slideshow */
 .carousel-item {
   height: 75vh;
   min-height: 100px;
@@ -70,30 +74,41 @@ body {
 @keyframes slidein {
   from {
     top: -30px;
-    left: 110px;
   }
   to {
     top: 55px;
-    left: 110px;
+  }
+}
+@media screen and (min-width: 990px) {
+  #text-animation {
+    animation-duration: 3s;
+    animation-name: slidein;
+    position: absolute;
+    top: 55px;
+    left: 320px;
+    width: 45%;
   }
 }
 /* navbar company name font */
 .navbar-brand {
   font-family: "Lobster";
-  font-size: 27px;
+  font-size: 30px;
   color: black;
 }
 
-/* make navbar translucent when scrolling */
+/* make navbar solid when scrolling */
 .navbar,
 .dropdown-menu {
   height: 80px;
   background-color: transparent;
   border: none;
   color: white;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 100;
   transition: background-color 1s ease 0s;
 }
+
 .navbar.solid {
   background-color: #89cd4b;
   transition: background-color 1s ease 0s;
@@ -103,7 +118,7 @@ body {
 .navbar-collapse {
   padding-left: 40px;
   width: 100%;
-  background-color: #0a6d8677;
+  background-color: #0a6d8649;
   transition: background-color 1s ease 0s;
 }
 .navbar-collapse.solid {

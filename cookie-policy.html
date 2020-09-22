@@ -26,8 +26,9 @@
 
   <body style="padding-top: 80px">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark solid fixed-top">
-      <a class="navbar-brand" href="index.html"
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a style="padding-left: 15px" class="navbar-brand" href="index.html"
         ><img
           src="images/logo-tas.png"
           width="40"
@@ -36,16 +37,19 @@
           alt=""
         />&nbsp;TAS
       </a>
+
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
         data-toggle="collapse"
         data-target="#navbarResponsive"
+        style="margin-right: 15px"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
           <li
             class="nav-item"
             data-toggle="collapse"
@@ -78,7 +82,6 @@
         </ul>
       </div>
     </nav>
-
     <div class="col-md-offset-3 text-center">
       <h1>Politica cookies pentru navigare pe site</h1>
     </div>
@@ -305,11 +308,44 @@
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">
-          &copy;Tas-depozit cereale si furaje Roman.
+          &copy;2020 Tas-depozit cereale si furaje.Toate drepturile rezervate.
         </p>
       </div>
       <!-- /.container -->
     </footer>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v8.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="107416231015993"
+      theme_color="#89cd4b"
+      greeting_dialog_display="hide"
+      logged_in_greeting="Buna ziua! Cu ce va putem ajuta?"
+      logged_out_greeting="Buna ziua! Cu ce va putem ajuta?"
+    ></div>
+
     <!-- cookie alert bar  -->
     <div class="alert alert-dismissible cookiealert" role="alert">
       <div class="cookiealert-container">
@@ -339,10 +375,16 @@
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script>
+      $(".navbar-nav>li>a").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
     <script src="js/cookiealert.js"></script>
     <script src="js/slideshow.js"></script>
+    <script src="js/navbarTransition.js"></script>
     <script src="js/goTop.js"></script>
   </body>
 </html>
