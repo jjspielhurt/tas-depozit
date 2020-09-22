@@ -167,7 +167,19 @@ body {
   height: 360px;
 }
 /* make products cards scale with size */
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 376px) and (max-width: 450px) {
+  .image-flip {
+    width: 175px;
+    height: 175px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1000px) {
+  .image-flip {
+    width: 220px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 375px) {
   .image-flip {
     width: 157px;
     height: 157px;
