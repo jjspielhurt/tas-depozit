@@ -17,7 +17,9 @@
   vertical-align: middle;
   float: none;
 }
-
+.sectionContainer {
+  padding-top: 80px !important;
+}
 /* links on offers */
 /* get offer container styling */
 

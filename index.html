@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/cookiealert.css" />
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a style="padding-left: 15px" class="navbar-brand" href="index.html"
@@ -143,7 +143,7 @@
         </div>
       </div> -->
       <!-- DESPRE NOI-CONTAINER -->
-      <div class="about">
+      <div class="sectionContainer" id="about">
         <!-- <h2 class="title" id="about">Despre noi</h2> -->
         <img class="animationImage" src="images/fundal-01.svg" />
       </div>
@@ -228,9 +228,9 @@
       </svg>
     </button>
     <!-- PRODUSE-CONTAINER -->
-    <div class="container">
+    <div class="container sectionContainer" id="products">
       <!-- PRODUSE -->
-      <h2 class="title" id="products">Produse</h2>
+      <h2 class="title">Produse</h2>
       <div class="container">
         <div class="row">
           <!-- grau -->
@@ -407,17 +407,9 @@
     <!-- GET AN OFFER -->
     <div class="offer">
       <div class="container">
-        <h2 class="title">Cere o oferta</h2>
+        <h2 class="title">Vezi preturile si cere o oferta:</h2>
         <div class="row">
-          <!-- fb messenger -->
-          <div class="col-xs-6 media">
-            <a href="http://m.me/107416231015993" target="_blank">
-              <img
-                src="images/media/fb-messenger.png"
-                style="width: 60px; height: 50px"
-              /><p>Messenger</p>
-            </a>
-          </div>
+
           <!-- olx -->
           <div class="col-xs-6 media">
           <a href="https://www.olx.ro/oferte/user/eDV0d/" target="_blank" >
@@ -435,6 +427,15 @@
                 style="width: 50px; height: 50px"
               /><p>Facebook Marketplace</p>
           </div>
+          <!-- fb messenger -->
+          <div class="col-xs-6 media">
+            <a href="http://m.me/107416231015993" target="_blank">
+              <img
+                src="images/media/fb-messenger.png"
+                style="width: 60px; height: 50px"
+              /><p>Messenger</p>
+            </a>
+          </div>
           <!-- fb -->
           <div class="col-xs-6 media">
             <a href="https://m.facebook.com/TAS-Depozit-cereale-si-furaje-107416231015993/" target="_blank">
@@ -450,9 +451,9 @@
       </div>
     </div>
     <!-- CONTACT MAP -->
-    <div class="row">
+    <div class="row sectionContainer" id="contact-details">
       <!-- Map Column -->
-      <div class="col-xs-12 col-lg-12" id="contact-details">
+      <div class="col-xs-12 col-lg-12">
         <h2 class="title">Detalii de contact</h2>
         <!-- Embedded Google Map -->
         <iframe
