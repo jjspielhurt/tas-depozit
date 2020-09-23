@@ -210,7 +210,8 @@ body {
 /* flip card */
 
 .image-flip:hover .backside,
-.image-flip.hover .backside {
+.image-flip.hover .backside,
+.image-flip.animate .backside {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
@@ -219,7 +220,8 @@ body {
 }
 
 .image-flip:hover .frontside,
-.image-flip.hover .frontside {
+.image-flip.hover .frontside,
+.image-flip.animate .frontside {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
