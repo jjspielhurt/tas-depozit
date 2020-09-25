@@ -3,6 +3,16 @@
   color: white !important;
   font-size: 19px;
 }
+/*  */
+#navbar-close {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
 /* map full width */
 #contact-details {
   padding: 0px;
@@ -100,7 +110,7 @@ body {
   animation-name: slidein;
   position: absolute;
   top: 55px;
-  left: 17.5%;
+  left: 27.5%;
   width: 65%;
 }
 @keyframes slidein {
@@ -116,7 +126,7 @@ body {
     animation-duration: 3s;
     animation-name: slidein;
     position: absolute;
-    left: 27.5%;
+    left: 27%;
     width: 45%;
   }
 }
