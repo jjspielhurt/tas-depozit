@@ -100,7 +100,7 @@ body {
   animation-name: slidein;
   position: absolute;
   top: 55px;
-  left: 110px;
+  left: 17.5%;
   width: 65%;
 }
 @keyframes slidein {
@@ -116,8 +116,7 @@ body {
     animation-duration: 3s;
     animation-name: slidein;
     position: absolute;
-    top: 55px;
-    left: 320px;
+    left: 27.5%;
     width: 45%;
   }
 }
