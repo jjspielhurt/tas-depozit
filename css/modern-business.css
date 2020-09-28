@@ -28,7 +28,7 @@
     min-height: 820px;
     background-color: #89cd4b;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
   #about {
     height: 580px;
