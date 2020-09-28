@@ -22,7 +22,7 @@
   .parallax {
     z-index: -1;
     position: fixed;
-    top: 0;
+    top: 20px;
 
     background-image: url("../images/mobile/about.svg");
     min-height: 820px;
