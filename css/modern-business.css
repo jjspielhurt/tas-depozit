@@ -8,10 +8,16 @@
   min-width: 100%;
   /* Create the parallax scrolling effect */ /* Create the parallax scrolling effect */
   background-attachment: fixed;
-
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+#about {
+  height: 800px;
+  width: 100%;
+
+  background-color: #89cd4b;
 }
 @media screen and (max-width: 828px) {
   .parallax {
