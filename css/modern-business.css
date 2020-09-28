@@ -23,9 +23,12 @@
 @media screen and (max-width: 828px) {
   .parallax {
     background-image: url("../images/mobile/about.svg");
-    min-height: 800px;
+    min-height: 500px;
     background-color: #89cd4b;
     background-attachment: scroll;
+  }
+  #about {
+    height: 500px;
   }
 }
 /* navbar full width */
