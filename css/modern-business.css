@@ -17,15 +17,18 @@
 #about {
   height: 800px;
   width: 100%;
-
-  background-color: #89cd4b;
 }
 @media screen and (max-width: 828px) {
   .parallax {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+
     background-image: url("../images/mobile/about.svg");
-    min-height: 620px;
+    min-height: 820px;
     background-color: #89cd4b;
-    background-attachment: scroll;
+    background-size: 100%;
+    background-attachment: fixed;
   }
   #about {
     height: 580px;
