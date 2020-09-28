@@ -1,3 +1,17 @@
+/* parallax */
+/* used for the slideshow animation illusion */
+.parallax {
+  /* The image used */ /* The image used */
+  background-image: url("../images/about/fundalnou-01.svg");
+  /* Set a specific height */ /* Set a specific height */
+  min-height: 900px;
+  min-width: 800px;
+  /* Create the parallax scrolling effect */ /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* navbar full width */
 .nav-link {
   color: white !important;
