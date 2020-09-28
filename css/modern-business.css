@@ -20,7 +20,7 @@
 }
 @media screen and (max-width: 828px) {
   .parallax {
-    z-index: -1;
+    z-index: -100;
     position: fixed;
     top: 20px;
 
@@ -28,6 +28,7 @@
     min-height: 820px;
     background-color: #89cd4b;
     background-size: 100%;
+
     background-attachment: scroll;
   }
   #about {
@@ -66,6 +67,7 @@
 }
 .sectionContainer {
   padding-top: 80px;
+  background-color: white;
 }
 /* links on offers */
 /* get offer container styling */
