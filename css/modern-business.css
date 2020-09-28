@@ -4,20 +4,19 @@
   /* The image used */ /* The image used */
   background-image: url("../images/about/fundalnou-01.svg");
   /* Set a specific height */ /* Set a specific height */
-  min-height: 500px;
-  min-width: 800px;
+  min-height: 800px;
+  min-width: 100%;
   /* Create the parallax scrolling effect */ /* Create the parallax scrolling effect */
   background-attachment: fixed;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 @media screen and (max-width: 828px) {
   .parallax {
     background-image: url("../images/mobile/about.svg");
-    min-width: 100%;
+    min-height: 800px;
     background-color: #89cd4b;
   }
 }
