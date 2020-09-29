@@ -85,6 +85,21 @@ body {
   z-index: 6; /* slide under group 3 and 5 */
 }
 
+#products_parallax .parallax__layer--base {
+  background-color: white;
+}
+#contact_parallax {
+  z-index: 6; /* slide under group 3 and 5 */
+  height: 100vh;
+}
+
+#contact_parallax .parallax__layer--base {
+  background-color: white;
+}
+.white-bg {
+  background-color: white;
+}
+
 /* navbar full width */
 .nav-link {
   color: white !important;
