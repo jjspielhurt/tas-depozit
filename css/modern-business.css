@@ -1,23 +1,80 @@
 /* parallax */
 /* used for the slideshow animation illusion */
-#about {
-  width: 100%;
-  height: 800px;
-  overflow-x: hidden;
+/* Parallax base styles
+  --------------------------------------------- */
 
+.parallax {
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  overflow-x: hidden;
   overflow-y: auto;
+  -webkit-perspective: 300px;
   perspective: 300px;
   -webkit-perspective-origin-x: 100%;
   perspective-origin-x: 100%;
 }
-.parallax {
+.parallax__group {
+  position: relative;
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform-origin-x: 100%;
+  transform-origin-x: 100%;
+}
+
+.parallax__layer--fore {
+  -webkit-transform: translateZ(90px) scale(0.7);
+  transform: translateZ(90px) scale(0.7);
+  z-index: 1;
+}
+
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+
+.parallax__layer--back {
+  -webkit-transform: translateZ(-300px) scale(2);
+  transform: translateZ(-300px) scale(2);
+  z-index: 3;
+}
+
+.parallax__layer--deep {
+  -webkit-transform: translateZ(-600px) scale(3);
+  transform: translateZ(-600px) scale(3);
+  z-index: 2;
+}
+#greeting_parallax {
+  z-index: 5; /* slide over group 2 */
+}
+#about_parallax {
+  z-index: 3; /* slide under groups 1 and 3 */
+}
+#about_slide_parallax {
+  z-index: 5; /* slide over group 2 and 4 */
+}
+#products_parallax {
+  z-index: 6; /* slide under group 3 and 5 */
+}
+/* .parallax {
   transform-origin: 0 0;
   background-image: url("../images/about/fundalnou-01.svg");
   width: 100%;
   height: 800px;
   transform: translateZ(-2px) scale(3);
   -webkit-transform: translateZ(-2px) scale(3);
-}
+} */
+
 /* navbar full width */
 .nav-link {
   color: white !important;

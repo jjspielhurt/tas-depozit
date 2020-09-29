@@ -101,34 +101,31 @@
       /* style the groups
   --------------------------------------------- */
 
-      #group1 {
+      #greeting_parallax {
         z-index: 5; /* slide over group 2 */
       }
-      #group1 .parallax__layer--base {
+      #greeting_parallax .parallax__layer--base {
         background-image: url("https://wallpaperaccess.com/full/284467.jpg");
       }
 
-      #group2 {
+      #about_parallax {
         z-index: 3; /* slide under groups 1 and 3 */
       }
-      #group2 .parallax__layer--back {
+      #about_parallax .parallax__layer--back {
         background-image: url("https://wallpapercave.com/wp/5odX9PP.jpg");
       }
 
-      #group3 {
-        z-index: 4; /* slide over group 2 and 4 */
+      #about_slide_parallax {
+        z-index: 5; /* slide over group 2 and 4 */
       }
-      #group3 .parallax__layer--base {
+      #about_slide_parallax .parallax__layer--base {
         background: rgb(153, 216, 101);
       }
 
-      #group4 {
-        z-index: 2; /* slide under group 3 and 5 */
+      #products_parallax {
+        z-index: 6; /* slide under group 3 and 5 */
       }
-      #group4 .parallax__layer--deep {
-        background: rgb(184, 223, 101);
-      }
-      .parallax__layer--fore {
+      #products_parallax .parallax__layer--fore {
         background-image: url("https://eskipaper.com/images/free-1080p-wallpaper-1.jpg");
       }
     </style>
@@ -136,24 +133,28 @@
 
   <body>
     <div class="parallax">
-      <div id="group1" class="parallax__group">
+      <div id="greeting_parallax" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <div class="title">Base Layer</div>
+          <!-- insert all here -->
+          <div class="title">TAS DEPOZIT</div>
         </div>
       </div>
-      <div id="group2" class="parallax__group">
+      <div id="about_parallax" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
-          <div class="title">Background Layer</div>
+          <!-- insert all here -->
+          <div class="title">DESPRE NOI</div>
         </div>
       </div>
-      <div id="group3" class="parallax__group">
+      <div id="about_slide_parallax" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-          <div class="title">Base Layer</div>
+          <!-- INSERT ALL HERE -->
+          <div class="title">SLIDESHOW DESPRE NOI</div>
         </div>
       </div>
-      <div id="group4" class="parallax__group">
-        <div class="parallax__layer parallax__layer--deep">
-          <div class="title">Deep Background Layer</div>
+      <div id="products_parallax" class="parallax__group">
+        <div class="parallax__layer parallax__layer--fore">
+          <!-- insert all here -->
+          <div class="title">Produse</div>
         </div>
       </div>
     </div>

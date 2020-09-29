@@ -89,26 +89,39 @@
         </ul>
       </div>
     </nav>
-
-    <!--GREETING  -->
-    <div style="position: relative; left: 0; top: 0">
-      <img
-        class="animationImage"
-        srcset="images/mobile/greet-background.svg 828w, images/greet-background.svg 1906w"
-        sizes="(min-width:990px) 1906w,
-          828w"
-        src="images/greet-background.svg"
-      />
-      <img id="text-animation" src="images/textanimatie-01.png" />
-    </div>
-    
+    <div class="parallax">
+        <div id="greeting_parallax" class="parallax__group">
+            <div class="parallax__layer parallax__layer--base">
+              <!-- insert all here -->
+                    <!--GREETING  -->
+                    <div style="position: relative; left: 0; top: 0">
+                    <img
+                        class="animationImage"
+                        srcset="images/mobile/greet-background.svg 828w, images/greet-background.svg 1906w"
+                        sizes="(min-width:990px) 1906w,
+                        828w"
+                        src="images/greet-background.svg"
+                    />
+                    <img id="text-animation" src="images/textanimatie-01.png" />
+                    </div>
+</div>
+</div>
+<div id="about_parallax" class="parallax__group">
+  <div class="parallax__layer parallax__layer--back">
     <!-- ABOUT US -->
-    <div id="about">
-      <div class="parallax" >
-    </div>
+    <img
+                        srcset="images/mobile/about.svg 828w, images/about/fundalnou-01.svg 1906w"
+                        sizes="(min-width:990px) 1906w,
+                        828w"
+                        src="images/about/fundalnou-01.svg"
+                    />
 
-    </div>
-
+    
+</div>
+</div>
+<div id="about_slide_parallax" class="parallax__group">
+    <div class="parallax__layer parallax__layer--base">
+  
     <!-- ABOUT US SLIDE -->
     <div
       id="carouselExampleIndicators"
@@ -167,6 +180,10 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+</div>
+</div>
+<div id="products_parallax" class="parallax__group">
+    <div class="parallax__layer parallax__layer--fore">
 
     <!-- PRODUCTS-CONTAINER -->
     <div class="container sectionContainer wideContainer" id="products">
@@ -391,7 +408,7 @@
           <!--  -->
         </div>
       </div>
-    </div>
+    
     <!-- CONTACT MAP -->
     <div class="row sectionContainer wideContainer" id="contact-details">
       <!-- Map Column -->
@@ -489,16 +506,19 @@
         </div>
       </div>
     </div>
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+              <p class="m-0 text-center text-white">
+                &copy;2020 Tas-depozit cereale si furaje.Toate drepturile rezervate.
+              </p>
+            </div>
+            <!-- /.container -->
+          </footer>
+</div>
+</div>
+</div>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">
-          &copy;2020 Tas-depozit cereale si furaje.Toate drepturile rezervate.
-        </p>
-      </div>
-      <!-- /.container -->
-    </footer>
         <!-- top scroll button -->
 
     <button onclick="topFunction()" id="goTopBtn" title="Go to top">
