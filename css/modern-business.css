@@ -248,11 +248,11 @@ body {
 
 /* go top button */
 #goTopBtn {
-  display: none;
+  display: block;
   position: fixed;
   bottom: 20px;
   left: 20px;
-  z-index: 99;
+  z-index: 2147483644;
   font-size: 25px;
   border: none;
   outline: none;
