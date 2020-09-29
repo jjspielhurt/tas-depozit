@@ -5,9 +5,10 @@
   height: 800px;
   overflow-x: hidden;
 
-  overflow-y: scroll;
-  perspective-origin: 0 0;
-  perspective: 1px;
+  overflow-y: auto;
+  perspective: 300px;
+  -webkit-perspective-origin-x: 100%;
+  perspective-origin-x: 100%;
 }
 .parallax {
   transform-origin: 0 0;
