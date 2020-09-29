@@ -1,13 +1,11 @@
 //Get the button
 var mybutton = document.getElementById("goTopBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
-
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (
+    document.getElementById("parallax").scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -16,9 +14,11 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  const c =
+    document.documentElement.scrollTop ||
+    document.getElementById("parallax").scrollTop;
   if (c > 0) {
     window.requestAnimationFrame(topFunction);
-    window.scrollTo(0, c - c / 8);
+    document.getElementById("parallax").scrollTo(0, c - c / 8);
   }
 }
