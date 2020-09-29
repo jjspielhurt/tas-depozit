@@ -448,7 +448,7 @@ body {
 .frontside {
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
-  z-index: 2;
+  z-index: 50;
 }
 
 .backside {
