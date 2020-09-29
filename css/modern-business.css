@@ -145,8 +145,6 @@ body {
   background-image: url("../images/seamless.jpg");
   background-size: 200px 200px;
   background-repeat: repeat;
-  background-attachment: fixed;
-
   width: 100%;
 }
 .offer .container {
@@ -214,6 +212,7 @@ body {
   /* height: 800px; */
 }
 .full-width {
+  position: relative;
   width: 100%;
 }
 /* animation text */
