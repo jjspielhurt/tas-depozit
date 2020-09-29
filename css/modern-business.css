@@ -66,7 +66,7 @@ body {
 }
 #about_parallax {
   z-index: 3; /* slide under groups 1 and 3 */
-  height: 70vh;
+  height: 80vh;
 }
 #about_parallax .parallax__layer--back {
   background-color: #89cd4b;
@@ -80,25 +80,31 @@ body {
   z-index: 6; /* slide under group 3 and 5 */
   height: 110vh;
 }
-
+#contact_parallax {
+  z-index: 7; /* slide under group 3 and 5 */
+  height: 150vh;
+}
+#footer_parallax {
+  z-index: 8;
+  height: 20vh;
+}
 @media screen and (max-width: 995px) {
   #about_slide_parallax {
     height: 45vh;
   }
   #products_parallax {
-    height: 130vh;
+    height: 110vh;
+  }
+  #contact-parallax {
+    height: 150vh;
   }
 }
 
 #products_parallax .parallax__layer--base {
   background-color: white;
 }
-#contact_parallax {
-  z-index: 6; /* slide under group 3 and 5 */
-  height: 100vh;
-}
 
-#contact_parallax .parallax__layer--base {
+#contact_parallax .parallax__layer--fore {
   background-color: white;
 }
 .white-bg {
