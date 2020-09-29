@@ -76,13 +76,18 @@ body {
   z-index: 5; /* slide over group 2 and 4 */
   height: 80vh;
 }
+#products_parallax {
+  z-index: 6; /* slide under group 3 and 5 */
+  height: 110vh;
+}
+
 @media screen and (max-width: 995px) {
   #about_slide_parallax {
     height: 45vh;
   }
-}
-#products_parallax {
-  z-index: 6; /* slide under group 3 and 5 */
+  #products_parallax {
+    height: 130vh;
+  }
 }
 
 #products_parallax .parallax__layer--base {
