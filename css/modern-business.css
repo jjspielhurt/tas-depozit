@@ -356,8 +356,8 @@ body {
 
 .image-flip {
   margin-bottom: 10px;
-  width: 360px;
-  height: 360px;
+  width: 30vh;
+  height: 30vh;
 }
 
 /* make products cards scale with size */
