@@ -1,0 +1,51 @@
+/* navbar company name font */
+.navbar-brand {
+  font-family: "Lobster";
+  font-size: 30px;
+  color: black;
+}
+
+/* make navbar solid when scrolling */
+.navbar,
+.dropdown-menu {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar.solid {
+  background-color: #89cd4b;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
+.navbar-collapse {
+  padding-left: 40px;
+  width: 100%;
+  background-color: #0a6d8649;
+  transition: background-color 1s ease 0s;
+}
+.navbar-collapse.solid {
+  background-color: #89cd4b;
+  transition: background-color 1s ease 0s;
+}
+.nav-link {
+  color: white !important;
+  font-size: 19px;
+}
+
+/* navbar x button */
+#navbar-close {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+.navbar.fixed-top {
+  -webkit-font-smoothing: antialiased;
+  padding: 0px 0px 0px 0px;
+}

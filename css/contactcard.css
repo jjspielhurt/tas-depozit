@@ -1,0 +1,22 @@
+/* contact cards */
+.contact-card {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.contact-card h6 {
+  font-family: "Lobster";
+  color: grey;
+  font-size: 1em;
+  padding-top: 1em;
+}
+.contact-card {
+  font-weight: bold;
+}
+.contact-card a {
+  color: black;
+  text-decoration: underline;
+  font-size: 1em;
+  -webkit-text-decoration-line: underline;
+}

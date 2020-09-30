@@ -1,0 +1,137 @@
+/* flip card */
+
+.image-flip:hover .backside,
+.image-flip.hover .backside,
+.image-flip.animate .backside {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside,
+.image-flip.animate .frontside {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.image-flip {
+  margin-bottom: 10px;
+  width: 18vw;
+  height: 18vw;
+}
+
+/* make products cards scale with size */
+/* tablet */
+@media screen and (min-width: 450px) and (max-width: 769px) {
+  .image-flip {
+    width: 210px;
+    height: 210px;
+  }
+}
+/* mobile l */
+@media screen and (min-width: 425px) and (max-width: 450px) {
+  .image-flip {
+    width: 197px;
+    height: 197px;
+  }
+}
+/* mobile m.2 */
+@media screen and (min-width: 414px) and (max-width: 425px) {
+  .image-flip {
+    width: 192px;
+    height: 192px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 410px) {
+  .image-flip {
+    width: 175px;
+    height: 175px;
+  }
+}
+/* mobile m */
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  .image-flip {
+    width: 165px;
+    height: 165px;
+  }
+}
+
+/* mobile m */
+@media screen and (min-width: 361px) and (max-width: 376px) {
+  .image-flip {
+    width: 172px;
+    height: 172px;
+  }
+}
+/* mobile s */
+@media screen and (min-width: 319px) and (max-width: 321px) {
+  .image-flip {
+    width: 145px;
+    height: 145px;
+  }
+}
+/* mobile xs */
+@media screen and (max-width: 319px) {
+  .image-flip {
+    width: 260px;
+    height: 260px;
+  }
+}
+.mainflip {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.frontside,
+.backside {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 1s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 1s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frontside {
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 50;
+}
+
+.backside {
+  background: #8acd4bbe;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card,
+.card-img-top {
+  border-radius: 0;
+}

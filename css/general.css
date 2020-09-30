@@ -1,0 +1,123 @@
+body {
+  background-color: #89cd4b;
+}
+.white-bg {
+  background-color: white;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+/* map full width */
+.wideContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.full-width {
+  position: relative;
+  width: 100%;
+}
+/* align center the texts */
+.row {
+  text-align: center;
+  margin: 0 auto;
+}
+.row .col-xs-6 {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+/* padding for proper go to from navbar */
+.sectionContainer {
+  padding-top: 80px;
+}
+body {
+  padding-top: 0px;
+}
+.container {
+  text-align: center;
+}
+.title {
+  font-family: "Lobster";
+}
+/* responsive about slideshow */
+.carousel-item {
+  height: 80vh;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media screen and (max-width: 995px) {
+  .carousel-item {
+    height: 45vh;
+  }
+}
+.slideElement {
+  display: none;
+}
+.animationImage {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 800px; */
+}
+
+/* animation text */
+#text-animation {
+  animation-duration: 3s;
+  animation-name: slidein;
+  position: absolute;
+  top: 55px;
+  left: 27.5%;
+  width: 65%;
+}
+@keyframes slidein {
+  from {
+    top: -30px;
+  }
+  to {
+    top: 50px;
+  }
+}
+@media screen and (min-width: 990px) {
+  #text-animation {
+    animation-duration: 3s;
+    animation-name: slidein;
+    position: absolute;
+    left: 27%;
+    width: 45%;
+  }
+}
+
+/* go top button */
+#goTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2147483644;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #89cd4b;
+  color: white;
+  cursor: pointer;
+  /* top right bottom left*/
+  padding: 10px 12px 13px 12px;
+  border-radius: 30%;
+}
+
+#goTopBtn:hover {
+  background-color: #89cd4b;
+}
+
+.fb_dialog.fb_dialog_advanced {
+  left: 18pt;
+  z-index: 50;
+  margin-left: 50px;
+}
