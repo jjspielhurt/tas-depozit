@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Politica de cookies a site ului TAS - depozit de cereale si furaje Roman.SC TUDOR AUTO SRL."
+    />
     <meta name="author" content="" />
 
-    <title>TAS-depozit cereale si furaje</title>
+    <title>TAS depozit cereale si furaje Roman</title>
     <link rel="icon" type="image/png" href="images/logo-tas.png" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/cookiealert.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lobster"
     />
-    <!-- cookiealert.css -->
-    <link rel="stylesheet" href="css/cookiealert.css" />
   </head>
 
   <body style="padding-top: 80px">
-    <!-- Navigation -->
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <a style="padding-left: 15px" class="navbar-brand" href="index.html"
         ><img
           src="images/logo-tas.png"
-          width="40"
-          height="40"
+          width="43"
+          height="43"
           class="d-inline-block align-top"
-          alt=""
+          alt="TAS depozit Roman logo"
         />&nbsp;TAS
       </a>
 
@@ -44,8 +46,26 @@
         data-toggle="collapse"
         data-target="#navbarResponsive"
         style="margin-right: 15px"
+        id="menu-btn"
       >
-        <span class="navbar-toggler-icon"></span>
+        <div id="navbar-hamburger">
+          <span class="navbar-toggler-icon"></span>
+        </div>
+        <div id="navbar-close" class="hidden">
+          <svg
+            width="30px"
+            height="30px"
+            viewBox="0 0 16 16"
+            class="bi bi-x"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </div>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -53,21 +73,21 @@
           <li
             class="nav-item"
             data-toggle="collapse"
-            data-target="#navbarResponsive"
+            data-target=".navbar-collapse.show"
           >
             <a class="nav-link" href="index.html">Acasa</a>
           </li>
           <li
             class="nav-item"
             data-toggle="collapse"
-            data-target="#navbarResponsive"
+            data-target=".navbar-collapse.show"
           >
             <a class="nav-link" href="#about">Despre noi</a>
           </li>
           <li
             class="nav-item"
             data-toggle="collapse"
-            data-target="#navbarResponsive"
+            data-target=".navbar-collapse.show"
           >
             <a class="nav-link" href="#products">Produse</a>
           </li>
@@ -75,13 +95,14 @@
           <li
             class="nav-item"
             data-toggle="collapse"
-            data-target="#navbarResponsive"
+            data-target=".navbar-collapse.show"
           >
             <a class="nav-link" href="#contact-details">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
     <div class="col-md-offset-3 text-center">
       <h1>Politica cookies pentru navigare pe site</h1>
     </div>
@@ -113,10 +134,10 @@
       <p>
         Prezenta Politică privind fișierele cookies se aplică tuturor
         utilizatorilor paginii de internet
-        <span style="color: #ff0000">[nume domeniu / website]</span>.
-        Informațiile prezentate în continuare au ca scop informarea
-        utilizatorilor acestei pagini de internet cu privire la plasarea,
-        utilizarea și administrarea cookie-urilor de către
+        <span style="color: #ff0000">tasdepozit.com</span>. Informațiile
+        prezentate în continuare au ca scop informarea utilizatorilor acestei
+        pagini de internet cu privire la plasarea, utilizarea și administrarea
+        cookie-urilor de către
         <span style="color: #ff0000">Tudor Auto Serv SRL</span> în contextul
         navigării utilizatorilor pe această pagină de internet.
       </p>
@@ -313,7 +334,6 @@
       </div>
       <!-- /.container -->
     </footer>
-
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
@@ -382,9 +402,10 @@
     </script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
-    <script src="js/cookiealert.js"></script>
-    <script src="js/slideshow.js"></script>
+
+    <script src="js/navbar_button_transition.js"></script>
     <script src="js/navbarTransition.js"></script>
+    <script src="js/cookiealert.js"></script>
     <script src="js/goTop.js"></script>
   </body>
 </html>
