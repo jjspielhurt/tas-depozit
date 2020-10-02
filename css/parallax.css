@@ -79,7 +79,7 @@
 }
 #contact_parallax {
   z-index: 7; /* slide under group 3 and 5 */
-  height: 100vh;
+  height: 110vh;
 }
 
 #footer_parallax {
