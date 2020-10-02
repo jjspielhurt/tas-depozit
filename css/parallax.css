@@ -56,30 +56,31 @@
 }
 /* parallax group styles */
 #greeting_parallax {
-  z-index: 5; /* slide over group 2 */
+  z-index: 4; /* slide over group 2 */
 }
 #greeting_paralax .parallax__layer--base {
   background-color: #89cd4b;
 }
+
 #about_parallax {
   z-index: 3; /* slide under groups 1 and 3 */
-  height: 85vh;
+  height: 95vh;
 }
-#about_parallax .parallax__layer--back {
+.parallax__layer--back {
   background-color: #89cd4b;
 }
 
 #about_slide_parallax {
-  z-index: 5; /* slide over group 2 and 4 */
+  z-index: 6; /* slide over group 2 and 4 */
   height: 80vh;
 }
 #products_parallax {
-  z-index: 6; /* slide under group 3 and 5 */
+  z-index: 5; /* slide under group 3 and 5 */
   height: 130vh;
 }
 #contact_parallax {
   z-index: 7; /* slide under group 3 and 5 */
-  height: 110vh;
+  height: 105vh;
 }
 
 #footer_parallax {
@@ -107,10 +108,8 @@
 #contact_parallax .parallax__layer--fore {
   background-color: white;
 }
-
 .seamless__background {
   background-image: url("../images/seamless.jpg");
   background-size: 204px 204px;
   background-repeat: repeat;
-  width: 100%;
 }
