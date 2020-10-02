@@ -92,17 +92,16 @@
     height: 45vh;
   }
   #products_parallax {
-    height: 115vh;
+    height: 235vw;
   }
 
   #contact_parallax {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
 #products_parallax .parallax__layer--fore {
   background-color: white;
-  height: 100%;
 }
 
 #contact_parallax .parallax__layer--fore {
