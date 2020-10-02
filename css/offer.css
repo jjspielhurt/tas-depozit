@@ -2,9 +2,7 @@
 /* get offer container styling */
 
 .offer {
-  background-image: url("../images/seamless.jpg");
-  background-size: 200px 200px;
-  background-repeat: repeat;
+  background: transparent;
   width: 100%;
 }
 .offer .container {
