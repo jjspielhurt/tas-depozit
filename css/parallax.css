@@ -93,7 +93,7 @@
     height: 45vh;
   }
   #products_parallax {
-    height: 235vw;
+    height: 230vw;
   }
 
   #contact_parallax {
@@ -112,4 +112,6 @@
   background-image: url("../images/seamless.jpg");
   background-size: 204px 204px;
   background-repeat: repeat;
+  background-origin: content-box;
+  padding-bottom: 100px;
 }
