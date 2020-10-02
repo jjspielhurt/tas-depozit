@@ -86,19 +86,15 @@
   z-index: 8;
   height: 0vh;
 }
-#offer_parallax {
-  height: 50vh;
-}
+
 @media screen and (max-width: 995px) {
   #about_slide_parallax {
     height: 45vh;
   }
   #products_parallax {
-    height: 110vh;
+    height: 115vh;
   }
-  #offer_parallax {
-    height: 50vh;
-  }
+
   #contact_parallax {
     height: 120vh;
   }
