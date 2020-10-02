@@ -102,7 +102,7 @@
 }
 
 #products_parallax .parallax__layer--fore {
-  background-color: white;
+  background-color: transparent;
 }
 
 #contact_parallax .parallax__layer--fore {

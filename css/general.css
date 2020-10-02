@@ -4,6 +4,9 @@ body {
 .white-bg {
   background-color: white;
 }
+.transparent-bg {
+  background-color: transparent;
+}
 
 .hidden {
   display: none !important;
