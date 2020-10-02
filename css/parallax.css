@@ -4,12 +4,16 @@
   height: 500px; /* fallback for older browsers */
   height: 100vh;
   width: 100%;
-  /* overflow-x: hidden; */
   overflow-y: auto;
   -webkit-perspective: 300px;
   perspective: 300px;
   -webkit-perspective-origin-x: 100%;
   perspective-origin-x: 100%;
+}
+@media screen and (min-width: 995px) {
+  .parallax {
+    overflow-x: hidden;
+  }
 }
 .parallax__group {
   position: relative;
