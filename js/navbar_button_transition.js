@@ -12,3 +12,6 @@ menuBtn.addEventListener("click", function () {
     }
   }, 100);
 });
+$(".navbar-nav>li>a").on("click", function () {
+  $("#menu-btn").trigger("click");
+});
