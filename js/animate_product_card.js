@@ -12,3 +12,11 @@ $(document).ready(function () {
     }
   });
 });
+function flipCard(id) {
+  console.log(id);
+  if (document.getElementById(id).classList.contains("animate")) {
+    $("#" + id).removeClass("animate");
+  } else {
+    $("#" + id).addClass("animate");
+  }
+}
