@@ -27,7 +27,7 @@
   cursor: pointer;
   bottom: 100px;
   background: transparent;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #scrollIndicator,
@@ -35,6 +35,7 @@
   background: transparent;
   border: none;
   outline: none;
+  color: white;
   cursor: pointer;
 }
 #scrollIndicator {
