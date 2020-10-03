@@ -7,9 +7,14 @@ function scrollFunction() {
     document.documentElement.scrollTop > 20
   ) {
     mybutton.style.display = "block";
+    document.getElementById("scrollIndicator").style.display = "none";
   } else {
     mybutton.style.display = "none";
+    document.getElementById("scrollIndicator").style.display = "inline-block";
   }
+}
+function scrollIndicator() {
+  document.getElementById("about").scrollIntoView();
 }
 
 // When the user clicks on the button, scroll to the top of the document

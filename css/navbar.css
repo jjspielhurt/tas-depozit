@@ -27,7 +27,7 @@
 .navbar-collapse {
   padding-left: 40px;
   width: 100%;
-  background-color: #0a6d8649;
+  background-color: #888d8f49;
   transition: background-color 1s ease 0s;
 }
 .navbar-collapse.solid {

@@ -119,3 +119,7 @@
   background-origin: content-box;
   padding-bottom: 100px;
 }
+.contact__background {
+  background-image: url("../images/contactseamless.jpg");
+  background-size: 354px 354px;
+}

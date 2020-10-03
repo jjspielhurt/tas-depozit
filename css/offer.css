@@ -6,17 +6,17 @@
   width: 100%;
 }
 .offer .container {
-  background-color: #07070617;
+  background-color: #07070600;
 }
 .offer a {
-  color: white;
+  color: black;
   font-size: 13px;
   font-weight: bold;
   text-decoration: none;
   -webkit-text-decoration-line: none;
 }
 .offer .title {
-  color: white;
+  color: black;
 }
 .media {
   display: inline-block;
