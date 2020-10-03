@@ -10,7 +10,7 @@
   -webkit-perspective-origin-x: 100%;
   perspective-origin-x: 100%;
 }
-@media screen and (min-width: 995px) {
+@media screen and (min-width: 900px) {
   .parallax {
     overflow-x: hidden;
   }

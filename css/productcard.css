@@ -22,6 +22,12 @@
 }
 
 /* make products cards scale with size */
+@media screen and (max-width: 1000px) {
+  .image-flip {
+    width: 35vw;
+    height: 35vw;
+  }
+}
 /* tablet */
 @media screen and (min-width: 450px) and (max-width: 769px) {
   .image-flip {

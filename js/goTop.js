@@ -14,7 +14,9 @@ function scrollFunction() {
   }
 }
 function scrollIndicator() {
-  document.getElementById("about").scrollIntoView();
+  document
+    .getElementById("about")
+    .scrollIntoView({ block: "end", behavior: "smooth" });
 }
 
 // When the user clicks on the button, scroll to the top of the document
