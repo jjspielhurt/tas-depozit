@@ -26,11 +26,9 @@ function scrollIndicator() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  const c =
-    document.documentElement.scrollTop ||
-    document.getElementById("parallax").scrollTop;
+  const c = document.getElementById("parallax").scrollTop;
   if (c > 0) {
     window.requestAnimationFrame(topFunction);
-    document.getElementById("parallax").scrollTo(0, c - c / 8);
+    document.getElementById("parallax").scrollTo(0, c - c / 10);
   }
 }
