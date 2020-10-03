@@ -80,7 +80,7 @@
 }
 #products_parallax {
   z-index: 5; /* slide under group 3 and 5 */
-  height: 130vh;
+  height: 110vh;
 }
 #contact_parallax {
   z-index: 7; /* slide under group 3 and 5 */
