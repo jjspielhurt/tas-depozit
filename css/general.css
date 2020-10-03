@@ -119,7 +119,30 @@ body {
 #goTopBtn:hover {
   background-color: #89cd4b;
 }
+.scrollContainer {
+  position: fixed;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  bottom: 100px;
+  background: transparent;
+  font-size: 25px;
+}
 
+#scrollIndicator,
+#scrollIndicator:hover {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .scrollContainer {
+    bottom: 160px;
+  }
+}
 .fb_dialog.fb_dialog_advanced {
   left: 18pt;
   z-index: 50;
