@@ -17,7 +17,6 @@ function scrollIndicator() {
   const c =
     document.documentElement.scrollTop ||
     document.getElementById("parallax").scrollTop;
-  document.ge;
   if (c < 500) {
     window.requestAnimationFrame(scrollIndicator);
     document.getElementById("parallax").scrollTo(0, c + 500 / 30);
