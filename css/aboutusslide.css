@@ -1,0 +1,32 @@
+#location1 {
+  background-image: url("../images/location/1.jpg");
+}
+#location2 {
+  background-image: url("../images/location/2.jpg");
+}
+#location3 {
+  background-image: url("../images/location/3.jpg");
+}
+#location5 {
+  background-image: url("../images/location/5.jpg");
+}
+#location6 {
+  background-image: url("../images/location/6.jpg");
+}
+@media screen and (max-width: 829px) {
+  #location1 {
+    background-image: url("../images/mobile/location/1.jpg");
+  }
+  #location2 {
+    background-image: url("../images/mobile/location/2.jpg");
+  }
+  #location3 {
+    background-image: url("../images/mobile/location/3.jpg");
+  }
+  #location5 {
+    background-image: url("../images/mobile/location/5.jpg");
+  }
+  #location6 {
+    background-image: url("../images/mobile/location/6.jpg");
+  }
+}

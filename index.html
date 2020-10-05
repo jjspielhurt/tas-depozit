@@ -10,7 +10,8 @@
     <meta name="author" content="TAS depozit cereale si furaje Roman" />
 
     <title>TAS depozit cereale si furaje Roman</title>
-    <link rel="icon" type="image/png" href="images/logo-tas.png" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/favicon.png"/>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -21,7 +22,8 @@
     <link href="css/productcard.css" rel="stylesheet" />
     <link href="css/parallax.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/bottomelements.css" />
-   
+    <link href="css/aboutusslide.css" rel="stylesheet" />
+    
     <link href="css/contactcard.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/cookiealert.css" />
     <link
@@ -143,7 +145,8 @@
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div
           class="carousel-item active"
-          style="background-image: url('images/location/1.jpg')"
+          id="location1"
+        
         >
           <!-- <div class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
@@ -153,22 +156,18 @@
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div
           class="carousel-item"
-          style="background-image: url('images/location/2.jpg')"
-          
+          id="location2"
           ></div>
         <div
           class="carousel-item"
-          style="background-image: url('images/location/3.jpg')"
-        ></div>
+          id="location3"        ></div>
        
         <div
           class="carousel-item"
-          style="background-image: url('images/location/5.jpg')"
-        ></div>
+          id="location5"        ></div>
         <div
           class="carousel-item"
-          style="background-image: url('images/location/6.jpg')"
-        ></div>
+          id="location6"        ></div>
       </div>
       <a
         class="carousel-control-prev"
@@ -211,6 +210,9 @@
                   <div class="card">
                     <img
                       class="card-img-top img-fluid"
+                      srcset="images/mobile/products/grau.jpg 260w, images/products/grau.jpg 400w"
+                        sizes="(min-width:990px) 400w,
+                        260w"
                       src="images/products/grau.jpg"
                       alt="grau cereale si boabe"
                     />
