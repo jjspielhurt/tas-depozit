@@ -17,10 +17,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
-.full-width {
-  position: relative;
-  width: 100%;
-}
 /* align center the texts */
 .row {
   text-align: center;
@@ -47,18 +43,13 @@ body {
 }
 /* responsive about slideshow */
 .carousel-item {
-  height: 80vh;
+  height: 45vh;
   min-height: 100px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-@media screen and (max-width: 995px) {
-  .carousel-item {
-    height: 45vh;
-  }
 }
 .slideElement {
   display: none;
@@ -95,5 +86,8 @@ body {
     position: absolute;
     left: 27%;
     width: 45%;
+  }
+  .carousel-item {
+    height: 80vh;
   }
 }
