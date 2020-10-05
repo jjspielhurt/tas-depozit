@@ -16,20 +16,34 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles -->
+    <!-- essential css -->
     <link href="css/general.css" rel="stylesheet" />
     <link href="css/navbar.css" rel="stylesheet" />
-    <link href="css/offer.css" rel="stylesheet" />
-    <link href="css/productcard.css" rel="stylesheet" />
     <link href="css/parallax.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/bottomelements.css" />
-    <link href="css/aboutusslide.css" rel="stylesheet" />
-    
-    <link href="css/contactcard.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/cookiealert.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
     />
+    <!-- lazy load -->
+    <!-- css/offer.css -->
+    <link rel="preload" href="css/offer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/offer.css"></noscript>
+    <!-- css/productcard.css -->
+    <link rel="preload" href="css/productcard.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/productcard.css"></noscript>
+    
+    <link rel="preload" href="css/bottomelements.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/bottomelements.css"></noscript>
+    
+    <link rel="preload" href="css/aboutusslide.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/aboutusslide.css"></noscript>
+
+    <link rel="preload" href="css/contactcard.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/contactcard.css"></noscript>
+
+    <link rel="preload" href="css/cookiealert.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/cookiealert.css"></noscript>
+      
     
   </head>
 
